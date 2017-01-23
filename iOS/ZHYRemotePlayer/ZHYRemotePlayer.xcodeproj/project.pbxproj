@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F96687E31E359EEF009F58E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96687E21E359EEF009F58E0 /* AppDelegate.swift */; };
-		F96687E51E359EEF009F58E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96687E41E359EEF009F58E0 /* ViewController.swift */; };
-		F96687E81E359EEF009F58E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96687E61E359EEF009F58E0 /* Main.storyboard */; };
 		F96687EA1E359EEF009F58E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96687E91E359EEF009F58E0 /* Assets.xcassets */; };
-		F96687ED1E359EEF009F58E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96687EB1E359EEF009F58E0 /* LaunchScreen.storyboard */; };
 		F96687F81E359EF0009F58E0 /* ZHYRemotePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96687F71E359EF0009F58E0 /* ZHYRemotePlayerTests.swift */; };
+		F96688041E35A32D009F58E0 /* ZHYMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96688031E35A32D009F58E0 /* ZHYMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +26,12 @@
 /* Begin PBXFileReference section */
 		F96687DF1E359EEF009F58E0 /* ZHYRemotePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYRemotePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96687E21E359EEF009F58E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F96687E41E359EEF009F58E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F96687E71E359EEF009F58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F96687E91E359EEF009F58E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F96687EC1E359EEF009F58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F96687EE1E359EEF009F58E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96687F31E359EF0009F58E0 /* ZHYRemotePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHYRemotePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96687F71E359EF0009F58E0 /* ZHYRemotePlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHYRemotePlayerTests.swift; sourceTree = "<group>"; };
 		F96687F91E359EF0009F58E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96688031E35A32D009F58E0 /* ZHYMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHYMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +73,9 @@
 		F96687E11E359EEF009F58E0 /* ZHYRemotePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				F96688021E35A307009F58E0 /* Classes */,
 				F96687E21E359EEF009F58E0 /* AppDelegate.swift */,
-				F96687E41E359EEF009F58E0 /* ViewController.swift */,
-				F96687E61E359EEF009F58E0 /* Main.storyboard */,
 				F96687E91E359EEF009F58E0 /* Assets.xcassets */,
-				F96687EB1E359EEF009F58E0 /* LaunchScreen.storyboard */,
 				F96687EE1E359EEF009F58E0 /* Info.plist */,
 			);
 			path = ZHYRemotePlayer;
@@ -94,6 +88,14 @@
 				F96687F91E359EF0009F58E0 /* Info.plist */,
 			);
 			path = ZHYRemotePlayerTests;
+			sourceTree = "<group>";
+		};
+		F96688021E35A307009F58E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F96688031E35A32D009F58E0 /* ZHYMainViewController.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96687ED1E359EEF009F58E0 /* LaunchScreen.storyboard in Resources */,
 				F96687EA1E359EEF009F58E0 /* Assets.xcassets in Resources */,
-				F96687E81E359EEF009F58E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96687E51E359EEF009F58E0 /* ViewController.swift in Sources */,
 				F96687E31E359EEF009F58E0 /* AppDelegate.swift in Sources */,
+				F96688041E35A32D009F58E0 /* ZHYMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,25 +223,6 @@
 			targetProxy = F96687F41E359EF0009F58E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F96687E61E359EEF009F58E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F96687E71E359EEF009F58E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F96687EB1E359EEF009F58E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F96687EC1E359EEF009F58E0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F96687FA1E359EF0009F58E0 /* Debug */ = {
@@ -340,26 +321,26 @@
 		F96687FD1E359EF0009F58E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24QJT553GT;
 				INFOPLIST_FILE = ZHYRemotePlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHY.ZHYRemotePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F96687FE1E359EF0009F58E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24QJT553GT;
 				INFOPLIST_FILE = ZHYRemotePlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHY.ZHYRemotePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

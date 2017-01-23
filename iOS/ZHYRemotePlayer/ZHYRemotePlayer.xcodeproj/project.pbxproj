@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F96687E31E359EEF009F58E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96687E21E359EEF009F58E0 /* AppDelegate.swift */; };
+		F96687E51E359EEF009F58E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96687E41E359EEF009F58E0 /* ViewController.swift */; };
+		F96687E81E359EEF009F58E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96687E61E359EEF009F58E0 /* Main.storyboard */; };
+		F96687EA1E359EEF009F58E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96687E91E359EEF009F58E0 /* Assets.xcassets */; };
+		F96687ED1E359EEF009F58E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96687EB1E359EEF009F58E0 /* LaunchScreen.storyboard */; };
+		F96687F81E359EF0009F58E0 /* ZHYRemotePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96687F71E359EF0009F58E0 /* ZHYRemotePlayerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F96687F41E359EF0009F58E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F96687D71E359EEF009F58E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96687DE1E359EEF009F58E0;
+			remoteInfo = ZHYRemotePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F96687DF1E359EEF009F58E0 /* ZHYRemotePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYRemotePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96687E21E359EEF009F58E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F96687E41E359EEF009F58E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F96687E71E359EEF009F58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F96687E91E359EEF009F58E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F96687EC1E359EEF009F58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F96687EE1E359EEF009F58E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96687F31E359EF0009F58E0 /* ZHYRemotePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHYRemotePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96687F71E359EF0009F58E0 /* ZHYRemotePlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHYRemotePlayerTests.swift; sourceTree = "<group>"; };
+		F96687F91E359EF0009F58E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F96687DC1E359EEF009F58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96687F01E359EF0009F58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F96687D61E359EEF009F58E0 = {
+			isa = PBXGroup;
+			children = (
+				F96687E11E359EEF009F58E0 /* ZHYRemotePlayer */,
+				F96687F61E359EF0009F58E0 /* ZHYRemotePlayerTests */,
+				F96687E01E359EEF009F58E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F96687E01E359EEF009F58E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F96687DF1E359EEF009F58E0 /* ZHYRemotePlayer.app */,
+				F96687F31E359EF0009F58E0 /* ZHYRemotePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F96687E11E359EEF009F58E0 /* ZHYRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F96687E21E359EEF009F58E0 /* AppDelegate.swift */,
+				F96687E41E359EEF009F58E0 /* ViewController.swift */,
+				F96687E61E359EEF009F58E0 /* Main.storyboard */,
+				F96687E91E359EEF009F58E0 /* Assets.xcassets */,
+				F96687EB1E359EEF009F58E0 /* LaunchScreen.storyboard */,
+				F96687EE1E359EEF009F58E0 /* Info.plist */,
+			);
+			path = ZHYRemotePlayer;
+			sourceTree = "<group>";
+		};
+		F96687F61E359EF0009F58E0 /* ZHYRemotePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F96687F71E359EF0009F58E0 /* ZHYRemotePlayerTests.swift */,
+				F96687F91E359EF0009F58E0 /* Info.plist */,
+			);
+			path = ZHYRemotePlayerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F96687DE1E359EEF009F58E0 /* ZHYRemotePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96687FC1E359EF0009F58E0 /* Build configuration list for PBXNativeTarget "ZHYRemotePlayer" */;
+			buildPhases = (
+				F96687DB1E359EEF009F58E0 /* Sources */,
+				F96687DC1E359EEF009F58E0 /* Frameworks */,
+				F96687DD1E359EEF009F58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHYRemotePlayer;
+			productName = ZHYRemotePlayer;
+			productReference = F96687DF1E359EEF009F58E0 /* ZHYRemotePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F96687F21E359EF0009F58E0 /* ZHYRemotePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96687FF1E359EF0009F58E0 /* Build configuration list for PBXNativeTarget "ZHYRemotePlayerTests" */;
+			buildPhases = (
+				F96687EF1E359EF0009F58E0 /* Sources */,
+				F96687F01E359EF0009F58E0 /* Frameworks */,
+				F96687F11E359EF0009F58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F96687F51E359EF0009F58E0 /* PBXTargetDependency */,
+			);
+			name = ZHYRemotePlayerTests;
+			productName = ZHYRemotePlayerTests;
+			productReference = F96687F31E359EF0009F58E0 /* ZHYRemotePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F96687D71E359EEF009F58E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "John Henry";
+				TargetAttributes = {
+					F96687DE1E359EEF009F58E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 24QJT553GT;
+						ProvisioningStyle = Automatic;
+					};
+					F96687F21E359EF0009F58E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 24QJT553GT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F96687DE1E359EEF009F58E0;
+					};
+				};
+			};
+			buildConfigurationList = F96687DA1E359EEF009F58E0 /* Build configuration list for PBXProject "ZHYRemotePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F96687D61E359EEF009F58E0;
+			productRefGroup = F96687E01E359EEF009F58E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F96687DE1E359EEF009F58E0 /* ZHYRemotePlayer */,
+				F96687F21E359EF0009F58E0 /* ZHYRemotePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F96687DD1E359EEF009F58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96687ED1E359EEF009F58E0 /* LaunchScreen.storyboard in Resources */,
+				F96687EA1E359EEF009F58E0 /* Assets.xcassets in Resources */,
+				F96687E81E359EEF009F58E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96687F11E359EF0009F58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F96687DB1E359EEF009F58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96687E51E359EEF009F58E0 /* ViewController.swift in Sources */,
+				F96687E31E359EEF009F58E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96687EF1E359EF0009F58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96687F81E359EF0009F58E0 /* ZHYRemotePlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F96687F51E359EF0009F58E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96687DE1E359EEF009F58E0 /* ZHYRemotePlayer */;
+			targetProxy = F96687F41E359EF0009F58E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F96687E61E359EEF009F58E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96687E71E359EEF009F58E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F96687EB1E359EEF009F58E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96687EC1E359EEF009F58E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F96687FA1E359EF0009F58E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F96687FB1E359EF0009F58E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F96687FD1E359EF0009F58E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24QJT553GT;
+				INFOPLIST_FILE = ZHYRemotePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHY.ZHYRemotePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F96687FE1E359EF0009F58E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24QJT553GT;
+				INFOPLIST_FILE = ZHYRemotePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHY.ZHYRemotePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F96688001E359EF0009F58E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24QJT553GT;
+				INFOPLIST_FILE = ZHYRemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHY.ZHYRemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHYRemotePlayer.app/ZHYRemotePlayer";
+			};
+			name = Debug;
+		};
+		F96688011E359EF0009F58E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24QJT553GT;
+				INFOPLIST_FILE = ZHYRemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHY.ZHYRemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHYRemotePlayer.app/ZHYRemotePlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F96687DA1E359EEF009F58E0 /* Build configuration list for PBXProject "ZHYRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96687FA1E359EF0009F58E0 /* Debug */,
+				F96687FB1E359EF0009F58E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96687FC1E359EF0009F58E0 /* Build configuration list for PBXNativeTarget "ZHYRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96687FD1E359EF0009F58E0 /* Debug */,
+				F96687FE1E359EF0009F58E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F96687FF1E359EF0009F58E0 /* Build configuration list for PBXNativeTarget "ZHYRemotePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96688001E359EF0009F58E0 /* Debug */,
+				F96688011E359EF0009F58E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F96687D71E359EEF009F58E0 /* Project object */;
+}
